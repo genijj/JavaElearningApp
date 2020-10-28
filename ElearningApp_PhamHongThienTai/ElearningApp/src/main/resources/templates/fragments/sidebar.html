@@ -1,0 +1,36 @@
+<div id="side-bar" xmlns:th="http://www.thymeleaf.org">
+            <div class="logo">ADMIN PAGE</div>
+            <ul class="list-group rounded-0">
+                <li class="dashboard">DASHBOARD</li>
+                <li>
+                    <a th:href="@{/user}">
+                        <i class="fa fa-user mr-2"></i> Quản lý thành viên
+                    </a>
+                </li>
+                <li>
+                    <a th:href="@{/role}">
+                        <i class="fa fa-book mr-2"></i> Quản lý quyền
+                    </a>
+                </li>
+               <li>
+                    <a th:href="@{/course}">
+                        <i class="fa fa-book mr-2"></i> Quản lý khóa học
+                    </a>
+                </li>
+                <li>
+                    <a th:href="@{/category}">
+                        <i class="fa fa-book mr-2"></i> Quản lý danh mục
+                    </a>
+                </li>
+                <li>
+                    <a th:href="@{/video}">
+                        <i class="fa fa-book mr-2"></i> Quản lý video
+                    </a>
+                </li>
+                <li>
+                    <a th:href="@{/target}">
+                        <i class="fa fa-book mr-2"></i> Quản lý mục tiêu
+                    </a>
+                </li>
+            </ul>
+        </div>
